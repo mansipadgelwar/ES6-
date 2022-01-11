@@ -12,7 +12,7 @@ var multiply = function(x, y) {
 ```
 var multiply = (x,y) => x * y;
 ```
-### que2
+### que 2
 ```
 var customer = {
   name: "Bhaalo"
@@ -44,4 +44,59 @@ console.log("Fifteen is ".concat(a + b, " and n0t ").concat(2 * a + b, "."));
 var a = 5;
 var b = 10;
 console.log(`Fifteen is ${a+b} and not ${2 * a + b}`);
+```
+
+### que 4
+```
+var arr = ["MA", "TA", "PA", "CA"];
+var firstName = arr[0],
+var surname = arr[1];
+console.log(firstName);
+console.log(surname);
+```
+### ==>
+```
+var arr = ["MA", "TA", "PA", "CA"];
+[firstName,surname] = arr;
+console.log(firstName);
+console.log(surname);
+```
+
+### que 5
+```
+var avengers = {
+  operation: "Assemble",
+  members: [
+    {
+      ironMan: "Tony Stark"
+    },
+    {
+      captainAmerica: "Steve Rogers"
+    },
+    {
+      blackWidow: "Natasha Romanoff"
+    }
+  ]
+};
+var operation = avengers.operation,
+  members = avengers.members;
+```
+### ==>
+```
+var avengers = {
+  operation: "Assemble",
+  members: [
+    {
+      ironMan: "Tony Stark"
+    },
+    {
+      captainAmerica: "Steve Rogers"
+    },
+    {
+      blackWidow: "Natasha Romanoff"
+    }
+  ]
+};
+const {operation,members} = avengers;
+
 ```
