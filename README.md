@@ -100,3 +100,17 @@ var avengers = {
 const {operation,members} = avengers;
 
 ```
+# Guess the output
+
+### Que 1
+```
+const hello = () => "Hello"
+const welcome = () => "Welcome"
+const [Hello = hello(), Welcome = welcome()] = ["Namaste"]
+console.log(Hello, Welcome)
+```
+### ==>
+
+```
+Namaste Welcome
+```
